@@ -13,6 +13,7 @@ interface Argv {
   $0: string;
 }
 
+
 const readFileAsync = promisify(fs.readFile);
 const writeFileAsync = promisify(fs.writeFile);
 const mkdirAsync = promisify(fs.mkdir);
